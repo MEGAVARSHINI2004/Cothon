@@ -1,9 +1,9 @@
-Automated Vulnerability Scanning and Reporting Tool
+# Automated Vulnerability Scanning and Reporting Tool
 
 
 A Python-based automated web vulnerability scanning tool that leverages OWASP ZAP and provides a Flask-based web interface. This tool allows users to input target URLs, initiate scans, and generate comprehensive vulnerability reports in PDF format — all in a few clicks.
 
-🚀 Features:
+# 🚀 Features:
 
 ✅ Integrates with OWASP ZAP (Zed Attack Proxy) for automated security scanning
 
@@ -19,7 +19,7 @@ A Python-based automated web vulnerability scanning tool that leverages OWASP ZA
 
 
 
-🧩 Project Structure:
+# 🧩 Project Structure:
 .
 ├── zap_scanner.py         # Handles interactions with OWASP ZAP API
 ├── generate_report.py     # Generates PDF reports from scan results
@@ -31,7 +31,8 @@ A Python-based automated web vulnerability scanning tool that leverages OWASP ZA
 
 
 
-📸 Web Interface Overview:
+# 📸 Web Interface Overview:
+
 Home Page: Input a single URL or upload a .txt file of multiple URLs.
 
 Scan Trigger: Initiates the OWASP ZAP scan in the background.
@@ -40,16 +41,16 @@ Reports: Automatically generates and provides a downloadable PDF report.
 
 
 
-⚙️ Installation & Setup:
+# ⚙️ Installation & Setup:
 
-1. Clone the repository
+## 1. Clone the repository
 git clone https://github.com/your-username/vulnerability-scanner-zap.git
 cd vulnerability-scanner-zap
 
-2. Install Python dependencies
+## 2. Install Python dependencies
 pip install -r requirements.txt
 
-3. Install and Start OWASP ZAP
+## 3. Install and Start OWASP ZAP
 Download ZAP from the official site.
 
 Run ZAP in daemon mode (no UI):
@@ -57,13 +58,13 @@ zap.sh -daemon -port 8090
 Or on Windows:
 zap.bat -daemon -port 8090
 
-4. Run the Flask Appt
+## 4. Run the Flask Appt
 python app.py
 Access the web app at: http://localhost:5000
 
 
 
-🛡️ How It Works:
+# 🛡️ How It Works:
 
 User inputs a URL (or uploads a .txt file).
 
@@ -75,7 +76,9 @@ generate_report.py formats the findings into a structured PDF report.
 
 The report is available for download.
 
-📄 Example PDF Report:
+
+
+# 📄 Example PDF Report:
 
 The PDF includes:
 
@@ -91,13 +94,13 @@ Recommended fixes
 
 
 
-📅 Scheduling Automated Scans (Optional):
+# 📅 Scheduling Automated Scans (Optional):
 
 You can automate scans using Windows Task Scheduler by scheduling run_tool.py or invoking specific endpoints of the Flask app using curl.
 
 
 
-🔧 Tech Stack:
+# 🔧 Tech Stack:
 
 Python 3.8+
 
@@ -111,13 +114,14 @@ HTML/CSS for frontend
 
 
 
-✍️ Authors
+# ✍️ Authors
 Megavarshini – Developer
-(Add your LinkedIn, GitHub, or email for contact if you'd like)
+Linkedin : https://www.linkedin.com/in/a-megavarshini/
+mail_id : megavarshini3031@gmail.com
 
 
 
-🏁 Future Enhancements
+# 🏁 Future Enhancements
 Add authentication for web access
 
 Support for scheduling via cron (Linux) or Task Scheduler (Windows)
