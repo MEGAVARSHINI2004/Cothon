@@ -44,7 +44,7 @@ Reports: Automatically generates and provides a downloadable PDF report.
 # ⚙️ Installation & Setup:
 
 ## 1. Clone the repository
-git clone https://github.com/your-username/vulnerability-scanner-zap.git
+git clone [https://github.com/MEGAVARSHINI2004/Cothon.git]
 cd vulnerability-scanner-zap
 
 ## 2. Install Python dependencies
@@ -116,8 +116,7 @@ HTML/CSS for frontend
 
 # ✍️ Authors
 Megavarshini – Developer
-Linkedin : https://www.linkedin.com/in/a-megavarshini/
-mail_id : megavarshini3031@gmail.com
+Linkedin : [https://www.linkedin.com/in/a-megavarshini/]
 
 
 
